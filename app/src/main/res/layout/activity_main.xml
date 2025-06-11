@@ -27,7 +27,8 @@
                 android:layout_width="@dimen/profile_image_size"
                 android:layout_height="@dimen/profile_image_size"
                 android:layout_marginTop="60dp"
-                android:src="@drawable/IMG_6134"
+                android:contentDescription="@string/first_name"
+                android:src="@drawable/kiaraa"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.496"
                 app:layout_constraintStart_toStartOf="parent"
@@ -46,7 +47,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/profile_image"
-                tools:text="Kiara Guerra <3" />
+                tools:text="Kiara Guerra" />
 
             <TextView
                 android:id="@+id/profile_bio"
